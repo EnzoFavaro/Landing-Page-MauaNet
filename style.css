@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #004587;
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    width: 381px;
+    height: 177px;
+    margin: 10px;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-evenly;
+    margin-left: 150px;
+}
+
+.navLinks{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+section img{
+    width: 100%;
+}
+
+.si{
+    position: relative;
+}
+
+.enade{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    background-color: #343434c2;
+    top: 70px;
+    left: 80px;
+    border-radius: 20px;
+}
+
+.tituloEnade{
+    margin-left: 50px;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.enade img{
+    width: 200px;
+    float: right;
+    margin-right: 20px;
+}
+
+.bold{
+    color: #D6A904;
+}
+
+.textEnade{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 250px;
+}
+
+.atividades p:before, .atividades p:after {
+    content: ' ';
+    position: absolute;
+    width: 30%;
+    border-top: 1px solid #004587;
+    margin-top: 1.4%;
+}
+
+.atividades p:before {
+    margin-left: -520px;
+}
+
+.atividades p:after {
+    margin-left: 60px;
+}
+
+.tituloAtividades{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #004587;
+    font-weight: bold;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.tituloCards{
+    margin-top: 10px;
+    color: #606060;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
+}
+.linkCards{
+    text-decoration: none;
+    color: #004587;
+    border: 1px solid #004587;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card1, .card2, .card3, .card4{
+    width: 300px;
+    height: 300px;
+}
+
+.cards a:hover{
+    background-color: #004587;
+    color: white;
+}
+
+.vest{
+    background-color: #004587;
+    margin-top: 40px;
+    text-align: center; 
+    color: white;
+    height: 130px;
+    font-family: 'Lato', sans-serif;
+}
+
+.tituloVest{
+    padding-top: 30px;
+    padding-bottom: 30px;  
+}
+
+.linkVest{
+    color: white;
+    text-decoration: none;
+    background-color: #D6A904;
+    font-family: 'Lato', sans-serif;
+    padding: 8px 100px;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #606060;
+    display: flex;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.localizacao{
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 900px;
+}
+
+.tituloLocalizacao{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.comoChegar{
+    margin-top: 40px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 70px;
+    width: 900px;
+}
+
+.linkSobre{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.imgEmec{
+    width: 200px;
+    height: 321px;
+    margin-left: 200px; 
+}
+
+.faleConosco{
+    margin-left: 80px;
+}
+
+.imgFaleConosco{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.imgRedeSocial{
+    width: 250px;
+    margin-left: 60px;
+}
